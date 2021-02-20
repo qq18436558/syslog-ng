@@ -8,6 +8,7 @@ EXPOSE 514/udp
 EXPOSE 601/tcp
 #EXPOSE 6514/tcp
 
+#3.30.1
 #COPY syslog-ng.conf /etc/syslog-ng/syslog-ng.conf
 
 #ENTRYPOINT ["/usr/sbin/syslog-ng", "-F"]
